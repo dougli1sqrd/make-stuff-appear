@@ -9,8 +9,8 @@ edition = "2018"
 [dependencies]
 piston_window = "0.111.0"
 # pistoncore-input = "1.0.0"
-conrod_core = { path = "../conrod/conrod_core", version = "0.70" }
-conrod_piston = { path = "../conrod/backends/conrod_piston", version = "0.70" }
+conrod_core = { git = "https://github.com/pistondevelopers/conrod" }
+conrod_piston = { git = "https://github.com/pistondevelopers/conrod" }
 find_folder = "0.3.0"
 specs = "0.16.1"
 specs-derive = "0.4.1"
